@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Icon -->
+    <link rel="icon" type="image/png" href="images/icon/icon.jpg" sizes="16x16" />
+    <!-- CSS Saya -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Scrooll Down -->
+    <link rel="stylesheet" href="css/scroll.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Montserrat&family=Oswald&family=Pacifico&family=Poppins&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- Load Page -->
+    <link rel="stylesheet" href="css/loadpage.css">
+    <title>Aneka Gorengan</title>
+  </head>
+  <body>
+    <!-- Load Page -->
+    <div class="page-load animate-slide-up" area-hidden="true">
+        <div class="loadingio-spinner-eclipse-jf5e22bpfve"><div class="ldio-g0e1vuxutig">
+            <div></div>
+            </div></div>
+    </div>
+    <!-- Akhir Load Page -->
+
+    <!-- Navigasi -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark">
+        <div class="container-md">
+          <a class="navbar-brand">
+            <h1 class="text-info">Gorengan.Com</h1>
+          </a>
+          <div class="menu-toggle">
+          <input type="checkbox" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span></span>
+          <span></span>
+          <span></span>
+          </input>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#beranda" class="nav-link text-white">BERANDA</a>
+              </li>
+              <li class="nav-item">
+                <a href="#Gorengan" class="nav-link text-white">ANEKA GORENGAN</a>
+              </li>
+              <li class="nav-item">
+                <a href="#map" class="nav-link text-white">LOCATION</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navigasi -->
+
+      <!-- Jumbtron -->
+      <section id="beranda" class="h-100 jumbtron-content">
+        <div class="container-md h-100">
+          <div class="d-flex h-100 flex-column justify-content-center align-items-center text-center">
+            <h1 id="opening" class="display-1 fw-bold text-white" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="1300 text-dark" data-aos-duration="2000">ANEKA <span class="text-info">GORENGAN</span></h1>
+            <p class="w-75 lead fw-normal text-white my-1" id="tulis"></p>
+            <a id="buttonmenu" href="#Gorengan" class="btn btn-lg btn-outline-light bg-transparent rounded-pill btn-jumbtron fw-bold mt-4 p-3 px-4 fs-6" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500"> Harga mulai dari 2 dollar</a>
+            <div class="jam mt-4"  data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000">
+            <div id="waktu" onload="showTime()"></div>
+            </div>
+            <div class="beban">
+            <a href="#Gorengan"><p class="hero__scroll fw-bold" data-aos="fade-down" data-aos-easing="ease" data-aos-delay="1300 text-dark" data-aos-duration="2000">Scroll down
+				    <i class="chevron bottom"></i>
+			      </p>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+    <!-- Akhir Jumbtron -->
+
+    <!-- Promo -->
+    <section id="iklan" class="bg-info">
+      <div class="container-md d-flex h-100 flex-column justify-content-center align-items-center text-center py-5">
+        <div class="row mb-3 heading">
+        <div class="col">
+        <h3 class="display-4 fw-bold text-white mt-3" data-aos="zoom-in-down" data-aos-duration="1000"> Gorengan.Com menawarkan beraneka macam gorengan yang murah dan enak </h3>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Promo -->
+
+    <!-- Gorengan -->
+    <section id="Gorengan">
+      <div class="container-md text-center py-5">
+        <div class="row mb-3 mt-4 heading">
+          <div class="col" data-aos="fade-down" data-aos-duration="1500">
+            <h1 class="fw-bold">ANEKA GORENGAN <i class="bi bi-card-list"></i></h1>
+            <hr class="underline text-info"/>
+          </div>
+        </div>
+        <div class="col" data-aos="fade-down" data-aos-duration="1500">
+        <div class="container">
+          <div class="item">
+              <img src="images/produk/gambarbala-bala.jpg" alt="Bala-Bala">
+                  <h3>Bala-Bala</h3>
+                  <p>Rp 50.000</p>
+                  <button onclick="addToCart('Bala-Bala')">Tambah ke Keranjang</button>
+          </div>
+          <div class="item">
+              <img src="images/produk/Pisang Goreng.jpg" alt="Pisang Goreng">
+                  <h3>Pisang Goreng</h3>
+                  <p>Rp 40.000</p>
+                  <button onclick="addToCart('Pisang Goreng')">Tambah ke Keranjang</button>
+          </div>
+          <div class="item">
+              <img src="images/produk/gambar cireng.jpg" alt="Cireng">
+                  <h3>Cireng Isi</h3>
+                  <p>Rp 60.000</p>
+                  <button onclick="addToCart('Cireng')">Tambah ke Keranjang</button>
+          </div>
+          <div class="item">
+              <img src="images/produk/gambar mendoan.jpg" alt="Mendoan">
+                  <h3>Tempe Mendoan</h3>
+                  <p>Rp 45.000</p>
+                  <button onclick="addToCart('Mendoan')">Tambah ke Keranjang</button>
+          </div>
+          <div class="item">
+              <img src="images/produk/gambar tahu.jpg" alt="Tahu Isi">
+                  <h3>Tahu Isi</h3>
+                  <p>Rp 30.000</p>
+                  <button onclick="addToCart('Tahu Isi')">Tambah ke Keranjang</button>
+          </div>
+          <div class="item">
+              <img src="images/produk/Pisang Coklat.jpg" alt="Pisang Coklat">
+                  <h3>Pisang Coklat</h3>
+                  <p>Rp 55.000</p>
+                  <button onclick="addToCart('Pisang Coklat')">Tambah ke Keranjang</button>
+          </div>
+      <div class="cart">
+          <h2>Keranjang Belanja</h2>
+              <ul id="cart-items"></ul>
+      <p>Total: <span id="cart-total">0</span></p>
+          <button onclick="checkout()">Checkout</button>
+      </div>
+      </div>      
+        <!--<script src="script.js"></script> -->        
+        <script src="src/script.js"></script>
+      </div>
+    </section>
+    <!-- Akhir Gorengan -->
+
+    <!-- Map -->
+    <section id="map" class="my-4 bg-dark" data-aos="zoom-in" data-aos-duration="1000">
+      <div class="container-md text-center py-5">
+        <div class="mb-4 mt-5 heading">
+          <h1 class="text-light fw-bold" data-aos="fade-right" data-aos-duration="2000">Location Gorengan.Com <i class="bi bi-geo-alt"></i></h1>
+          <hr class="underline text-info" data-aos="fade-right" data-aos-duration="2000"/>
+        </div>
+      <div class="container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63466.17252504528!2d106.85619608108638!3d-6.179481928816805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sid!2sid!4v1644650885037!5m2!1sid!2sid"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Akhir Map -->
+
+    <!-- Footer -->
+    <footer id="footer" class="py-4 bg-info position-relative">
+      <div class="container-md text-center text-dark fs-6">
+        <p class="my-0">&copy; Copyright <span class="fw-bold">UTS Pemrograman WEB</span>. All Rights Reserved.</p>
+        <p class="my-0">
+          <span class="fw-bold">Risfandhiani Triara Putri</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- GSAP Animasi -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('#tulis', {duration: 2.5, delay: 1.5 , text: 'Aneka Gorengan dengan Rasa yang Enak, Gurih, Lejat, dan Bergiji.'})
+    </script>
+    <!-- Akhir Animasi Gsap -->
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstraprgb(13, 202, 240) !importantundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Akhir Bottstrap -->
+
+    <!-- AOS Animasi -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <!-- Akhir Animasi AOS -->
+
+    <!-- Loadpage -->
+    <script src="src/loadpage.js"></script>
+    <!-- Akhir Load Page -->
+
+    <!-- Waktu -->
+    <script src="src/clock.js"></script>
+    <!-- Akhir Waktu -->
+
+    <!-- Navbar -->
+    <script src="src/navbar.js"></script>
+    <!-- Akhir navbar -->
+  </body>
+</html>
